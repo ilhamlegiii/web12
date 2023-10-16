@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulir Pendaftaran Siswa</title>
+
+<body>
+    
+
+    
+<form>
+    <fieldset>
+       <legend><h1>Formulir Pendaftaran Siswa</h1></legend>
+    <table border="1">
+        <tr>
+            <td>Nama</td>
+            <td><input type="text" name="nama"></td>
+        </tr>
+        <tr>
+            <td>Tempat Tanggal Lahir</td>
+            <td><input type="text" name="tempat_lahir"> <input type="date" name="tanggal_lahir"></td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td><input type="text" name="agama"></td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td><textarea name="alamat" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>No HP</td>
+            <td><input type="tel" name="no_hp"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>
+                <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+                <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+            </td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td> <label><input type="checkbox" name="membaca" value="Membaca" />membaca</label>
+                <label><input type="checkbox" name="menulis" value="Menulis" />menulis</label>
+                <label><input type="checkbox" name="olahraga" value="Olahraga" />olahraga</label></td>
+        </tr>
+        <tr>
+            <td>Pas Foto</td>
+            <td><input type="file" name="pas_foto"></td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password"></td>
+        </tr> 
+        <tr colspan="3">
+        <td align="rigth">
+    <input type="submit" value="Daftar">
+</td>
+</tr>
+    </table>
+   
+</fieldset>
+</form>
+</body>
+</html>

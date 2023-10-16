@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Form Pendaftaran Siswa</title>
+</head>
+<body>
+<h1>Form Pendaftaran Siswa</h1>
+<form>
+    <table border="1">
+    
+        <tr>
+            <td>Nama Lengkap</td>
+            <td>:</td>
+            <td><input type="text" name="nama"></td>
+        </tr>
+        <tr>
+            <td>Alamat</td>
+            <td>:</td>
+            <td><textarea name="alamat" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td>Tempat Lahir</td>
+            <td>:</td>
+            <td><input type="text" name="agama"></td>
+        </tr>
+        <tr>
+        <td>Tanggal Lahir</td>  
+        <td>:</td>  
+        <td>Tanggal<input type="date" name="tempat_lahir">Bulan<input type="month" name="tempat_lahir">Tahun <input type="years" name="tanggal_lahir"></td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin</td>
+            <td>:</td>
+            <td><input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+            <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan</td> 
+        </tr>
+        <tr>
+            <td>
+                <label for="agama">Agama</label>
+                <td>:</td>
+<td>
+<select id="agama">
+  <option value="volvo">Islam</option>
+  <option value="saab">Kristen</option>
+  <option value="opel">Hindu</option>
+  <option value="audi">Buddha</option></td>
+</select>
+            </td>
+        </tr>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td> <label><input type="checkbox" name="membaca" value="Membaca" />belanja</label>
+                <label><input type="checkbox" name="menulis" value="Menulis" />nonton</label>
+                <label><input type="checkbox" name="olahraga" value="Olahraga" />main bola</label>
+                <label><input type="checkbox" name="olahraga" value="Olahraga" />berenang</label>
+                <label><input type="checkbox" name="olahraga" value="Olahraga" />memasak</label>
+                <label><input type="checkbox" name="olahraga" value="Olahraga" />memancing</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td>:</td>
+            <td><input type="text" name="username"></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>:</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+    </table>
+    <br>
+    <input type="submit" value="Submit">   <input type="reset" value="Reset">
+   
+</form>
+</body>
+</html>
